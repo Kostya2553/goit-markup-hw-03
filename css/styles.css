@@ -1,0 +1,246 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196F3;
+  --secondary-color:
+}
+/*============ INDEX.HTML ============*/
+
+
+
+
+/*============ HEADER ============*/
+.logo {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 11.9;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.logo-web{
+  font-family: var(--secondary-font);
+font-weight: bold;
+font-size: 26px;
+line-height: 11.9;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.menu-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus
+{color: var(--accent-color);}
+
+.contact-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+ color: #757575;
+}
+.contact-link:hover,
+.contact-link:focus 
+{color: var(--accent-color);}
+/*============ HEADER END ============*/
+
+
+
+
+/*============ ABOUT 1 ============*/
+.modal-btn {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: floralwhite;
+  background: #2196f3;
+}
+.first-page-phrase {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #2F303A;
+}
+/*============ ABOUT 1 END ============*/
+
+
+
+
+/*============ ABOUT 2 ============*/
+.head-lines {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 2.07;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.head-explanation {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*============ ABOUT 2 END ============*/
+
+
+
+
+/*============ ABOUT 3 ============*/
+.page-what-group {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.group-people {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*============ ABOUT 3 END ============*/
+
+
+
+
+/*============ FOOTER ============*/
+.logo-footer {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color:  #FFFFFF;
+}
+
+
+.contact-footer-adres {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.contact-footer-adres:hover,
+.contact-footer-adres:focus 
+{color: var(--accent-color);}
+
+.contact-footer {
+font-family: var(--main-font);
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.contact-footer:hover,
+.contact-footer:focus 
+{color: var(--accent-color);}
+
+.beck-footer {
+ background: #2F303A;
+}
+/*============ FOOTER END ============*/
+
+
+
+
+/*============ INDEX.HTML END ============*/
+
+//////////////////////////////////////////////////
+
+
+/*============ PARTFOLIO.HTML ============*/
+
+
+
+/*============ NAV BTN ============*/
+.btn-list {
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.btn-list:hover,
+.btn-list:focus 
+{color:#FFFFFF;
+background: #2196F3;
+}
+/*============ NAV BTN END ============*/
+
+
+
+.photo-second-name-list {
+  font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+/* identical tobox height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*============ ABOUT PHOTO ============*/
+.photo-name-list {
+font-family: var(--main-font);
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;
+
+
+/*============ ABOUT PHOTO AND ============*/
