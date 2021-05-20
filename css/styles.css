@@ -45,6 +45,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .navigation {
   display: flex;
@@ -62,6 +63,7 @@ img {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #212121;
+  margin-right: 90px;
 }
 .logo-web{
   font-family: var(--secondary-font);
@@ -72,6 +74,11 @@ line-height: 11.9;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
+.contact-list{
+  display: flex;
+  align-items: center;
+
+}
 .menu-link {
   font-family: var(--main-font);
   font-weight: 500;
@@ -81,20 +88,38 @@ color: #2196F3;
   color: #212121;
 }
 .menu-link:hover,
-.menu-link:focus
-{color: var(--accent-color);}
-
-.contact-link {
+.menu-link:focus{
+color: var(--accent-color);
+}
+.menu-item:not(:last-child) {
+margin-right: 50px;
+}
+.contact-link-adres {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
- color: #757575;
+  color: #757575;
+  margin-right: 50px;
 }
-.contact-link:hover,
-.contact-link:focus 
-{color: var(--accent-color);}
+.contact-link-adres:hover,
+.contact-link-adres:focus 
+{color: var(--accent-color);
+}
+.contact-link-num {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contact-link-num:hover,
+.contact-link-num:focus 
+{color: var(--accent-color);
+}
+
 /*============ HEADER END ============*/
 
 
