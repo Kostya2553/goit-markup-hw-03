@@ -139,7 +139,6 @@ margin-right: 50px;
   cursor: pointer;
   color: floralwhite;
   background: #2196f3;
-  display: flex;
   align-items: center;
   display: inline-block;
 }
@@ -177,6 +176,10 @@ margin-right: 50px;
   line-height: 2.07;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  align-items: center;
+  display: flex;
+  margin-right: 30px;
+  margin-top: 94px;
 }
 
 .head-explanation {
@@ -187,6 +190,10 @@ margin-right: 50px;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
+  align-items: center;
+  display: flex;
+  margin-right: 30px;
+  margin-top: 10px;
 }
 .explanation-list {
   align-items: center;
@@ -195,7 +202,9 @@ margin-right: 50px;
 .do-list{
   display: flex;
   flex-wrap: wrap; 
+  
 }
+
 /*============ ABOUT 2 END ============*/
 
 
@@ -209,6 +218,7 @@ margin-right: 50px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 94px;
 }
 
 .group-people {
@@ -224,6 +234,16 @@ margin-right: 50px;
   display: flex;
   flex-wrap: wrap; 
 }
+.do-list {
+  display: flex;
+  flex-wrap: wrap
+}
+.do-photo {
+  display: flex;
+  flex-wrap: wrap
+  
+}
+
 /*============ ABOUT 3 END ============*/
 
 
