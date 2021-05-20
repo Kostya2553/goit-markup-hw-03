@@ -46,6 +46,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
 }
 .navigation {
   display: flex;
@@ -138,7 +139,9 @@ margin-right: 50px;
   cursor: pointer;
   color: floralwhite;
   background: #2196f3;
+  display: flex;
   align-items: center;
+  display: inline-block;
 }
 .first-page-phrase {
   font-family: var(--main-font);
@@ -153,8 +156,13 @@ margin-right: 50px;
   background: #2F303A;
   display: flex;
   align-items: center;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
 }
-  
+.about1{
+  text-align: center;
+}
   
 /*============ ABOUT 1 END ============*/
 
@@ -180,6 +188,14 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   color: #757575;
 }
+.explanation-list {
+  align-items: center;
+  display: flex;
+}
+.do-list{
+  display: flex;
+  flex-wrap: wrap; 
+}
 /*============ ABOUT 2 END ============*/
 
 
@@ -204,7 +220,10 @@ margin-right: 50px;
   text-align: center;
   letter-spacing: 0.03em;
 }
-
+.group-list {
+  display: flex;
+  flex-wrap: wrap; 
+}
 /*============ ABOUT 3 END ============*/
 
 
