@@ -42,6 +42,18 @@ img {
 
 
 /*============ HEADER ============*/
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: var(--main-font);
   font-weight: bold;
