@@ -17,16 +17,17 @@ h4,
 h5,
 h6,
 p{
-margin-top: 0;
-margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 ul,
 ol {
   margin-bottom: 0;
   margin-top: 0;
   margin-left: 0;
-  
-
+}
+img {
+  display:block
 }
 /*============ INDEX.HTML ============*/
 
