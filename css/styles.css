@@ -25,6 +25,8 @@ ol {
   margin-bottom: 0;
   margin-top: 0;
   margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 img {
   display:block
@@ -32,8 +34,8 @@ img {
 
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0 auto;
 }
 /*============ INDEX.HTML ============*/
@@ -176,6 +178,7 @@ margin-right: 50px;
   line-height: 2.07;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   align-items: center;
   display: flex;
   margin-right: 30px;
@@ -190,21 +193,21 @@ margin-right: 50px;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
+
   align-items: center;
   display: flex;
   margin-right: 30px;
   margin-top: 10px;
 }
 .explanation-list {
-  align-items: center;
   display: flex;
 }
 .do-list{
-  display: flex;
-  flex-wrap: wrap; 
   
 }
+.div-do-list {
 
+}
 /*============ ABOUT 2 END ============*/
 
 
@@ -216,17 +219,20 @@ margin-right: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
+
   text-align: center;
   letter-spacing: 0.03em;
+  
   margin-top: 94px;
 }
 
-.group-people {
+.group-people{
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
+
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -234,16 +240,6 @@ margin-right: 50px;
   display: flex;
   flex-wrap: wrap; 
 }
-.do-list {
-  display: flex;
-  flex-wrap: wrap
-}
-.do-photo {
-  display: flex;
-  flex-wrap: wrap
-  
-}
-
 /*============ ABOUT 3 END ============*/
 
 
