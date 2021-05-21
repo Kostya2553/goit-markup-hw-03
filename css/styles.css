@@ -139,10 +139,19 @@ margin-right: 50px;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+
   color: floralwhite;
   background: #2196f3;
+
   align-items: center;
   display: inline-block;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .first-page-phrase {
   font-family: var(--main-font);
@@ -152,9 +161,11 @@ margin-right: 50px;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
+
   text-transform: uppercase;
   color: #FFFFFF;
   background: #2F303A;
+
   display: flex;
   align-items: center;
   width: 696px;
@@ -203,6 +214,7 @@ margin-right: 50px;
 .explanation-list {
   align-items: center;
   display: flex;
+  background: #FFFFFF;
 }
 
 .about2-list {
@@ -218,11 +230,14 @@ margin-right: 50px;
 
 
 /*============ ABOUT 3 ============*/
-.do-list {
+.do-ul {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 10px;
   justify-content: space-between;
+}
+.div-do-list{
+  background: #FFFFFF;
 }
 .page-what-group {
   font-family: var(--main-font);
@@ -233,9 +248,21 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   padding-top: 94px;
 }
-.group-l {
+.group-ul {
+display: flex;
+flex-wrap: wrap;
+margin-top: -30px;
+margin-left: -30px;  
+}
+.group-li {
   margin-left: 30px;
   margin-top: 30px;
+  box-shadow:
+  0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: #FFFFFF;
 }
 .group-people{
   font-family: var(--main-font);
@@ -247,7 +274,6 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   margin-top: 30px;
 }
-
 .group-people2{
   font-family: var(--main-font);
 font-weight: normal;
@@ -260,21 +286,9 @@ color: #757575;
 margin-top: 10px;
 margin-bottom: 30px;
 }
-.group-list {
-background: #FFFFFF;
-display: flex;
-flex-wrap: wrap;
-margin-top: -30px;
-margin-left: -30px;
 
-box-shadow:
-0px 1px 3px rgba(0, 0, 0, 0.12), 
-0px 1px 1px rgba(0, 0, 0, 0.14), 
-0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;  
-}
 .div-group{
-  background: #F5F4FA;
+background: #F5F4FA;
 }
 
 /*============ ABOUT 3 END ============*/
