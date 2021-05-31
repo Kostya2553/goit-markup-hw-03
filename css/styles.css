@@ -293,8 +293,6 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.contact-list-footer {
-}
 
 .contact-footer-adres {
   font-family: var(--main-font);
@@ -382,6 +380,11 @@ img {
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: #212121;
+}
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /*============ ABOUT PHOTO AND ============*/
