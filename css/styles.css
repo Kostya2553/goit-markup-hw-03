@@ -349,17 +349,27 @@ img {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
+
   color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
+
+  margin-right: 8px;
 }
 .btn-list:hover,
 .btn-list:focus {
   color: #ffffff;
   background: #2196f3;
 }
+.nav-btn-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
 /*============ NAV BTN END ============*/
 
+/*============ ABOUT PHOTO ============*/
 .photo-second-name-list {
   font-family: var(--main-font);
   font-style: normal;
@@ -370,8 +380,6 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
-/*============ ABOUT PHOTO ============*/
 .photo-name-list {
   font-family: var(--main-font);
   font-weight: bold;
@@ -384,7 +392,7 @@ img {
 .photo-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
-
+.photo-list :not(:last-child) {
+}
 /*============ ABOUT PHOTO AND ============*/
