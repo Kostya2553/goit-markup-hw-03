@@ -357,6 +357,7 @@ img {
   border-radius: 4px;
 
   margin-right: 8px;
+  border: transparent
 }
 .btn-list:hover,
 .btn-list:focus {
