@@ -59,7 +59,7 @@ img {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 26px;
-  line-height: 11.9;
+  line-height: 0.7;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #212121;
@@ -167,11 +167,11 @@ img {
   margin-left: auto;
 }
 .first-phrase {
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
 }
 .about-1 {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 }
 /*============ ABOUT 1 END ============*/
@@ -187,6 +187,8 @@ img {
   align-items: center;
   display: flex;
   margin-right: 30px;
+}
+.explanation{
   padding-top: 94px;
 }
 
@@ -212,18 +214,19 @@ img {
 .about2-list {
   align-items: center;
   display: flex;
-  margin-top: 30px;
   margin-left: 30px;
 }
 
 /*============ ABOUT 2 END ============*/
 
 /*============ ABOUT 3 ============*/
+.do{
+padding-top: 94px;
+padding-bottom: 94px;
+}
 .do-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
-  padding-bottom: 94px;
   justify-content: space-between;
 }
 .div-do-list {
@@ -236,15 +239,13 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .group-ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-  padding-bottom: 94px;
 }
 .group-li {
   margin-left: 30px;
@@ -280,6 +281,8 @@ img {
 
 .about-3 {
   background: #f5f4fa;
+  
+  padding-bottom: 94px;
 }
 
 /*============ ABOUT 3 END ============*/
@@ -327,10 +330,11 @@ img {
 
 .beck-footer {
   background: #2f303a;
-}
-.div-foot {
+
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.div-foot {
 }
 .footer-li {
   margin-bottom: 9px;
@@ -343,6 +347,9 @@ img {
 /*============ PARTFOLIO.HTML ============*/
 
 /*============ NAV BTN ============*/
+.header-partfolio{
+  border: 1px solid #ECECEC;
+}
 .btn-list {
   font-family: var(--main-font);
   font-weight: 500;
@@ -357,7 +364,9 @@ img {
   border-radius: 4px;
 
   margin-right: 8px;
-  border: transparent
+  border: transparent;
+  padding-right: 22px;
+  padding-left: 22px;
 }
 .btn-list:hover,
 .btn-list:focus {
@@ -412,8 +421,6 @@ img {
 .photo-item {
   margin-left: 30px;
   margin-top: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
   box-sizing: border-box; 
